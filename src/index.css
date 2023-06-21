@@ -1,3 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.category-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.category:hover {
+    background-color: #176B87;
+    transition: 200ms ease-in-out;
+    color: #F7FFE5;
+}
+
+.like-icon:hover {
+    color: #FFA41B !important;
+}
+
+.scoreBtn:active svg {
+    color: #FF6D60 !important;
+}
